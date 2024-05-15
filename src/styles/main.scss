@@ -1,3 +1,6 @@
+@use 'hero';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -47,4 +50,10 @@ body {
 
 .title--small {
     @include title(28px);
+}
+
+.link-text {
+    @include text(18px);
+    color: $corTextoSecundaria;
+    text-decoration: underline;
 }
